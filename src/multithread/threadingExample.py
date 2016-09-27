@@ -4,8 +4,7 @@ Created on 2016年9月4日
 
 @author: shawn
 '''
-#coding=utf-8  
-import threading   
+import threading
 from time import sleep, ctime   
    
 loops = ['a','b']                      #睡眠时间  

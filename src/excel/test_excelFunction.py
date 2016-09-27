@@ -24,17 +24,9 @@ class Test(unittest.TestCase):
     def tearDown(self):
         print('test unitest  teardown')
 
-    def testMap(self):
-        map1 = {1:[2,3]}
-        if map1[1]:
-            print('not empty')
-        else:
-            print('empry')
-
-        if map1[2]:
-            print('2 not empty')
-        else:
-            print('2 empry')
+    def testZiweiExcel(self):
+        excelFile1 = '''D:\同步盘\Project\helper_others\(xtej1814-338_2016-09-26.xlsx'''
+        ziwei_Use_OpenPyXl.calZiweiExcel(excelFile1)
 
 
 if __name__ == "__main__":

@@ -1,3 +1,9 @@
+#encoding=UTF-8
+'''
+Created on 2016年9月4日
+
+@author: shawn
+'''
 import openpyxl
 '''
 openpyxl 一些基本概念：
@@ -20,30 +26,10 @@ ValueError: unsupported format character ',' (0x2c) at index 6
 注意点：
 openPyxl 只能操作xlsx后缀的excel文件不能操作xls后缀的
 '''
-
-def displayExcelSummaryInfo(fileName):
-    wb = openpyxl.load_workbook(fileName)
-    #Can 't convert 'list' object to str implicitly
-    print(wb.get_sheet_names())
-
-    '''改善print()不能自动把worksheet转化为str，也不能把lsit转化为str'''
-    print('active sheet is :')
-    print(wb.active)
-    sheet = wb.active
-    print('sheet A1.value' + sheet['A1'].value)
-    c = sheet['B1']
-    print('Row ' + str(c.row) + ', Column ' + c.column + ' is ' + c.value)
-
-    ##print cell
-    for i in range(1, 8, 2):
-        print(i, sheet.cell(row=i, column=2).value)
-
-    a1c3 = tuple(sheet['A1':'C3'])
-    print('alc3_tuple=')
-    print(a1c3)
-
-# class 我想创建一个class是想模拟出excel中的多列数据
+##定义两个全局变量，
+#excel  列原始值
 mapValList={}
+#excel  列平均值
 mapAver={}
 
 def initMap(sheet):
@@ -51,36 +37,19 @@ def initMap(sheet):
         c = sheet.cell(row=i, column=1)
         print(type(c.value))  ##根据excel 中的值定如若是 2085.750.  type(c.value)就是str，2085.750 就是float
         # 这里的cell(1,1) 就是excel中的第一行第一列，行头和列头不算在内
-        fixedVal = fixStr(str(c.value))
-        mapValList[fixedVal] = []
+        try:
+            ##excel 中数据多种多样，所以在清洗数据时候  except 捕捉异常，以让剩余值进行下去，且打印有异常的数据
+            fixedVal = cleanData(str(c.value))
+            mapValList[fixedVal] = []
+        except ValueError:
+            print("initMap-valueError,%s" % (c.value))
+
 
 #1. excel中 清理数据，先把第一列变成数值类型
 def calZiweiExcel(fileName):
     wb = openpyxl.load_workbook(fileName)
     sheet = wb.active
     initMap(sheet)
-    for i in range(2,52903):
-        c=sheet.cell(row=i, column=1)
-        print(type(c.value))    ##根据excel 中的值定如若是 2085.750.  type(c.value)就是str，2085.750 就是float
-        #这里的cell(1,1) 就是excel中的第一行第一列，行头和列头不算在内
-        fixedVal = fixStr(str(c.value))
-        sheet.cell(row=i, column=4).value = fixedVal
-        ## 错误： Type 'type' object is not subscriptable
-        ## KeyError: 2,如果map中没有key 2 你去遍历会报错的，所以必须先填充
-        mapval  =  mapValList[fixedVal]
-        if mapval :
-            ##不为空的话
-            cellColumn2 = sheet.cell(row=i, column=2)
-            print(cellColumn2.value)
-            mapValList[fixedVal].append(cellColumn2.value)
-        else:
-            ##如果为空的话
-            listTemp = []
-            cellColumn2 = sheet.cell(row=i, column=2)
-
-            listTemp.append(cellColumn2.value)
-            mapValList[fixedVal] = listTemp
-
     averageMap()
     writeMap(sheet)
     wb.save('ziwei.xlsx')
@@ -91,6 +60,23 @@ def averageMap():
         num = len(list1)
         sum_score = sum(list1)
         mapAver[key]=sum_score/num
+
+def groupByKey(sheet):
+    for i in range(2, 52903):
+        c = sheet.cell(row=i, column=1)
+        try:
+            fixedVal = cleanData(str(c.value))
+        except ValueError:
+            print("valueError,%s" % (c.value))
+        sheet.cell(row=i, column=4).value = fixedVal
+        ## 错误： Type 'type' object is not subscriptable
+        ## KeyError: 2,如果map中没有key 2 你去遍历会报错的，所以必须先填充
+        valList = mapValList[fixedVal]
+
+        ##不为空的话
+        cellColumn2 = sheet.cell(row=i, column=2)
+        print(cellColumn2.value)
+        mapValList[fixedVal].append(cellColumn2.value)
 
 def averageMap():
     for key in mapValList.keys():
@@ -114,15 +100,21 @@ def writeMap(sheet):
         except Exception:
             print('writeMap error,key='+ key)
 
-
-def fixStr(numStr):
+##1.去掉前面的- 号，遇到第一个小数点就截取
+'''excel 格式清理：比如传进来是1). 后面有个点  2085.750.   2). 2085.7 50. 中间有空格'''
+def cleanData(numStr):
     if numStr[0] == '-':
         numStr = numStr[1:]
-    return numStr[0:numStr.index('.')]
+    if numStr.find('.')== 0:
+        return numStr[0:numStr.index('.')]
+    else:
+        print('numstr not contain . ,numstr=s%' % (numStr))
+    #fixeme
+    return numStr
 
 
 
-'''excel 格式清理：比如传进来是1). 后面有个点  2085.750.   2). 2085.7 50. 中间有空格'''
+
 
 
 
