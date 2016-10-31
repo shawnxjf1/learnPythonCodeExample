@@ -36,8 +36,24 @@ class Test(unittest.TestCase):
     #     ziwei_Use_OpenPyXl.calZiweiExcel(excelFile1)
 
     def testDealWithOverWork(self):
-        excelFile2 = '''D:\同步盘\Project\拉卡拉行政\加班报销\(201604-加班交通费及餐费明细表.xlsx'''
-        dealWithOverWork.loadOverWorkExcel(excelFile2)
+        #excelFile4 = '''D:\同步盘\Project\拉卡拉行政\加班报销\(201604-加班交通费及餐费明细表.xlsx'''
+        #dealWithOverWork.loadOverWorkExcel(excelFile4,4,8,"201604.xlsx")
+
+        # excelFile5 = '''D:\同步盘\Project\拉卡拉行政\加班报销\(201605-加班交通费及餐费明细表.xlsx'''
+        # dealWithOverWork.loadOverWorkExcel(excelFile5, 4, 22, "201605.xlsx")
+        #
+        # excelFile6 = '''D:\同步盘\Project\拉卡拉行政\加班报销\(201606-加班交通费及餐费明细表.xlsx'''
+        # dealWithOverWork.loadOverWorkExcel(excelFile6, 4, 20, "201606.xlsx")
+        #
+        # excelFile7 = '''D:\同步盘\Project\拉卡拉行政\加班报销\(201607-加班交通费及餐费明细表.xlsx'''
+        # dealWithOverWork.loadOverWorkExcel(excelFile7, 4, 23, "201607.xlsx")
+        #
+        # excelFile8 = '''D:\同步盘\Project\拉卡拉行政\加班报销\(201608-加班交通费及餐费明细表.xlsx'''
+        # dealWithOverWork.loadOverWorkExcel(excelFile8, 4, 25, "201608.xlsx")
+
+
+         excelFile9 = '''D:\同步盘\Project\拉卡拉行政\加班报销\(201609-加班交通费及餐费明细表.xlsx'''
+         dealWithOverWork.loadOverWorkExcel(excelFile9, 4, 28, "201609.xlsx")
 
 
 
