@@ -15,9 +15,11 @@ from  datetime  import  *
 def loadOverWorkExcel(fileName,beginIndex,endIndex,destFileName):
     wb = openpyxl.load_workbook(fileName)
     sheet = wb.get_sheet_by_name("0412")
+    ## 实际加班日期 的列索引
+    actualWorkTimeColumn = 3
     #sheet = wb.active
     for i in range(beginIndex,endIndex):
-        c = sheet.cell(row=i, column=3)
+        c = sheet.cell(row=i, column=actualWorkTimeColumn)  ## 4
         '''注意 print语句 %s s在%后面'''
         print("c.value.type=%s and c.value=%s"%(type(c.value),c.value)) ##<class 'datetime.time'> and c.value=20:41:00 - (excel当中就是h:mm单元格的格式)
         overWorkCriterion = time(20,00,0)
@@ -66,7 +68,9 @@ def patchActualWorkTime(actualWorkTime):
     now = datetime.now()
     if isinstance(actualWorkTime,datetime):
         actualworkDateTime = datetime(now.year, now.month, now.day, actualWorkTime.hour, actualWorkTime.minute,
-                                      actualWorkTime.second, 0)
+                                   actualWorkTime.second, 0)
+
+    # 2016/5/9 20:18:52，则c.value.type=<class 'str'>
     elif isinstance(actualWorkTime,str):
         actualWorkTime = convertStrToDateTime(actualWorkTime)
     print("actualworktime=%s" % actualWorkTime)
