@@ -28,11 +28,22 @@ from src.logging.logUtil import info
 from src.logging.logUtil import debuger
 ## from ..logging.logUtil import *   出错:SystemError: Parent module '' not loaded, cannot perform relative import
 
+## x轴最大长度
+maxX = 100
+xtransfer = 1
+yAllTransfer = 2
+## 计算出变化的X数组范围
+def generateVariationX():
 
-def sinx():
-    X = numpy.linspace(1,10,10)
-    Xa = numpy.linspace(10,50,70)  ## type(Xa) :numpy.ndarray
-    Xb = numpy.linspace(50,100,300)
+    intensityX = 5
+    intensityXa = 4
+    intensityXb = 2
+    intensityC = 3
+
+    X = numpy.linspace(1,10,50)
+    Xa = numpy.linspace(10,30,(30-10)*intensityXa)  ## type(Xa) :numpy.ndarray
+    Xb = numpy.linspace(30,60,(60-10)*intensityXb)
+    Xc = numpy.linspace(60,maxX,(maxX-60)*intensityC)
     Xall = []
     # Xall.append(X.tolist())
     # Xall.append(Xa.tolist())
@@ -40,57 +51,58 @@ def sinx():
     Xall = Xall + X.tolist()
     Xall += Xa.tolist()
     Xall += Xb.tolist()
+    Xall += Xc.tolist()
+    return Xall
+
+## 里面暂时注释,暂时没有想到更好的办法
+def getYTransfer(x):
+    # if x < 30 and x>0:
+    #     return 1 + 1.0/x
+    # elif x > 30 and x<60:
+    #     return 2
+    # else:
+    #     return 3
+    # return x*x
+    return math.log2(x)
+
+def showTransferSinPicture():
+    Xall = generateVariationX()
     Y = []
     for i in Xall:
-        ## plt.plot(x, (1.0/x)*np.sin(i))
-        # plt.plot(X, (1.0/i)*np.sin(X))
-        y = transferSin(i)
+        y = transferSin(i,getYTransfer(i))
         Y.append(y)
-    plt.plot(Xall, Y,color='black',linestyle='dashed',linewidth=3)
+    plt.plot(Xall, Y,'k.',linewidth=3)
 
     Y1 = []
     X1 = []
-    x = math.pi/2  ## 极大值
-    while x <= 100 :
-        Y1.append(transferSin(x))
+    x = math.pi/2/xtransfer  ## 极大值
+    while x <= maxX :
+        Y1.append(transferSin(x,getYTransfer(x)))
         X1.append(x)
-        x += math.pi*2
+        x += math.pi*2/xtransfer
 
     Y2 = []
     X2 = []
-    x = math.pi*(3/2) ## 极小值
-    while x < 100 :
-        Y2.append(transferSin(x))
+    x = math.pi*(3/2/xtransfer) ## 极小值
+    while x <= maxX :
+        Y2.append(transferSin(x,getYTransfer(x)))
         X2.append(x)
-        x += math.pi*2
+        x += math.pi*2/xtransfer
 
     plt.plot(X1, Y1,color='red')
     plt.plot(X2, Y2,color='red')
-    print('======begin=======')
-    print(X1)
-    print(Y1)
-    print('======end========')
 
+    ## 给X Y轴打标记
     plt.ylabel('f(x)')
     plt.xlabel('x')
-    #print('x2={0},y2={1}'.format(X2,Y2))
     plt.show()
 
 
-def transferSin(x):
-    return 1 + (1.0/(10+x))*math.sin(x)
+def transferSin(x,ytransfer):
+    return 1 + (1.0/(10+ytransfer*x))*math.sin(xtransfer*x)
 
-def showShuangquxian():
-    x=range(-1000,0)
-    y=[1.0/e for e in x]
-    plt.plot(x,y)
-    x=range(1,1001)
-    y=[1.0/e for e in x]
-    plt.plot(x,y)
-    plt.show()
-
-
-def showSelfMakePoint():
+## 变形sin 显示
+def showSelfMakeSinPicture():
     x = []
     currentX = 1;
     for i in range(1,101,1):
@@ -164,7 +176,6 @@ def showSelfMakePoint():
 
 """
 from plot import showPlot 报红线
-
 """
 
 # 此测试用例可以执行。
@@ -175,17 +186,9 @@ class Test(unittest.TestCase):
     def tearDown(self):
         print('test unitest  teardown')
 
-    def testSinx(self):
-        sinx()
+    def testShowTransferSinPicture(self):
+        showTransferSinPicture()
         ## 2017年01月01日 输出  Testing started at 上午11:04 ..., logging/testLog.log文件
 
-    def testS(self):
-        ## 1.点瞄准
-        ## 2.需要是虚线,一个是.  一个是短线条。
-        pass
-
-    def testShowShuangquxian(self):
-        showShuangquxian()
-
     def testShowSelfMakePoint(self):
-        showSelfMakePoint()
+        showSelfMakeSinPicture()

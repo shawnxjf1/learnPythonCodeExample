@@ -32,6 +32,13 @@ logging.basicConfig(level=logging.DEBUG,
                 filename='testLog.log',
                 filemode='w')
 
+## 以下代码是让日志写入到控制台
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+console.setFormatter(formatter)
+logging.getLogger('').addHandler(console)
+
 def addLogToConsole():
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
