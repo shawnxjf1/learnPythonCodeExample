@@ -89,8 +89,8 @@ def showTransferSinPicture():
         X2.append(x)
         x += math.pi*2/xtransfer
 
-    plt.plot(X1, Y1,color='red')
-    plt.plot(X2, Y2,color='red')
+    plt.plot(X1, Y1,color='red',linewidth=3)
+    plt.plot(X2, Y2,color='red',linewidth=3)
 
     ## 给X Y轴打标记
     plt.ylabel('f(x)')
