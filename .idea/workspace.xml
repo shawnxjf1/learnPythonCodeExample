@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff78478d-f327-4208-8ac7-a6a2e4ded41a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/excel/201610.xlsx" afterPath="$PROJECT_DIR$/src/excel/201610.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/env/env_build.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/excel/excel_config.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/excel/test_dealWithOverWork.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/excel/test_ziweiUserOpen.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/env/env_build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/2016-10-11_bak/201604.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/2016-10-11_bak/201605.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/2016-10-11_bak/201606.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/2016-10-11_bak/201607.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/2016-10-11_bak/201608.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201604" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201605.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201606.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201607.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201608.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201609.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201610.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201610_new.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201611.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/201612_new.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/excel/test_excelFunction.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/excel/dealWithOverWork.py" afterPath="$PROJECT_DIR$/src/excel/dealWithOverWork.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/excel/test_excelFunction.py" afterPath="$PROJECT_DIR$/src/excel/test_excelFunction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/excel/excelWithXlrd.py" afterPath="$PROJECT_DIR$/src/excel/excelWithXlrd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/excel/ziwei_Use_OpenPyXl.py" afterPath="$PROJECT_DIR$/src/excel/ziwei_Use_OpenPyXl.py" />
     </list>
     <ignored path="learnPythonCodeExample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +47,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_excelFunction.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/excel/test_excelFunction.py">
+      <file leaf-file-name="test_dealWithOverWork.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/excel/test_dealWithOverWork.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <folding>
+                <element signature="e#310#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configparser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/configparser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="1017" column="61" selection-start-line="1017" selection-start-column="61" selection-end-line="1017" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gitPullCommitPush.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitPullCommitPush.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="env_build.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/env/env_build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_ziweiUserOpen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/excel/test_ziweiUserOpen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excelWithXlrd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/excel/excelWithXlrd.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="55" column="74" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="79" />
+              <caret line="7" column="107" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -38,11 +122,31 @@
       <file leaf-file-name="dealWithOverWork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/excel/dealWithOverWork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-287">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="482">
+              <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
               <folding>
                 <element signature="e#49#64#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel_config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/excel/excel_config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datetime.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/datetime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33725">
+              <caret line="1776" column="35" selection-start-line="1776" selection-start-column="35" selection-end-line="1776" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,13 +159,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/excel/dealWithOverWork.py" />
         <option value="$PROJECT_DIR$/src/excel/test_excelFunction.py" />
+        <option value="$PROJECT_DIR$/src/excel/ziwei_Use_OpenPyXl.py" />
+        <option value="$PROJECT_DIR$/src/excel/excelWithXlrd.py" />
+        <option value="$PROJECT_DIR$/src/excel/test_ziweiUserOpen.py" />
+        <option value="$PROJECT_DIR$/src/excel/dealWithOverWork.py" />
+        <option value="$PROJECT_DIR$/docs/env/env_build" />
+        <option value="$PROJECT_DIR$/docs/env/env_build.sh" />
+        <option value="$PROJECT_DIR$/src/excel/excel_config.ini" />
+        <option value="$PROJECT_DIR$/src/excel/test_dealWithOverWork.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
+    <option name="x" value="-3" />
     <option name="width" value="1370" />
     <option name="height" value="735" />
   </component>
@@ -90,8 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -99,6 +208,14 @@
               <option name="myItemId" value="learnPythonCodeExample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.5.2 (C:\Users\lakala-shawn\AppData\Local\Programs\Python\Python35\pythonw.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -121,24 +238,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learnPythonCodeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learnPythonCodeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -159,19 +258,56 @@
               <option name="myItemId" value="excel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2016-10-11_bak" />
+              <option name="myItemId" value="learnPythonCodeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learnPythonCodeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learnPythonCodeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learnPythonCodeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="env" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest Test.testDealWithOverWork (2)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_workspace_python\learnPythonCodeExample\src\excel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittest Test.testConfigParser">
     <configuration default="false" name="Unittest Test.testDealWithOverWork" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,7 +318,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learnPythonCodeExample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/excel/test_excelFunction.py" />
+      <option name="SCRIPT_NAME" value="D:\git_workspace_python\learnPythonCodeExample\src\excel\test_dealWithOverWork.py" />
       <option name="CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="testDealWithOverWork" />
       <option name="FOLDER_NAME" value="" />
@@ -204,7 +340,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learnPythonCodeExample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/excel/test_excelFunction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/excel/test_dealWithOverWork.py" />
       <option name="CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="testDealWithOverWork" />
       <option name="FOLDER_NAME" value="" />
@@ -216,7 +352,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest Test.testDealWithOverWork (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest Test.testConfigParser" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -226,9 +362,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learnPythonCodeExample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/excel/test_excelFunction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/excel/test_dealWithOverWork.py" />
       <option name="CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="testDealWithOverWork" />
+      <option name="METHOD_NAME" value="testConfigParser" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -375,13 +511,14 @@
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test.testConfigParser" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork (1)" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Test.testConfigParser" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Test.testDealWithOverWork" />
       </list>
     </recent_temporary>
   </component>
@@ -399,31 +536,31 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.01.09 at 18h 27m 24s.xml">
-      <configuration name="Unittest Test.testDealWithOverWork" configurationId="tests" />
+    <history-entry file="Unittest_Test_testConfigParser - 2017.03.17 at 11h 04m 20s.xml">
+      <configuration name="Unittest Test.testConfigParser" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.01.09 at 18h 38m 24s.xml">
-      <configuration name="Unittest Test.testDealWithOverWork" configurationId="tests" />
+    <history-entry file="Unittest_Test_testConfigParser - 2017.03.17 at 11h 04m 47s.xml">
+      <configuration name="Unittest Test.testConfigParser" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.01.09 at 18h 39m 41s.xml">
-      <configuration name="Unittest Test.testDealWithOverWork" configurationId="tests" />
+    <history-entry file="Unittest_Test_testConfigParser - 2017.03.17 at 11h 05m 31s.xml">
+      <configuration name="Unittest Test.testConfigParser" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.01.09 at 18h 39m 48s.xml">
-      <configuration name="Unittest Test.testDealWithOverWork" configurationId="tests" />
+    <history-entry file="Unittest_Test_testConfigParser - 2017.03.17 at 11h 36m 36s.xml">
+      <configuration name="Unittest Test.testConfigParser" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.01.09 at 18h 40m 32s.xml">
-      <configuration name="Unittest Test.testDealWithOverWork" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.01.09 at 18h 42m 21s.xml">
-      <configuration name="Unittest Test.testDealWithOverWork" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.01.09 at 18h 43m 36s.xml">
-      <configuration name="Unittest Test.testDealWithOverWork" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.01.09 at 19h 54m 02s.xml">
+    <history-entry file="Unittest_Test_testDealWithOverWork - 2017.03.10 at 15h 51m 29s.xml">
       <configuration name="Unittest Test.testDealWithOverWork" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_Test_testDealWithOverWork_(1) - 2017.01.09 at 18h 35m 41s.xml">
+      <configuration name="Unittest Test.testDealWithOverWork (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Test_testDealWithOverWork_(1) - 2017.03.16 at 16h 36m 08s.xml">
+      <configuration name="Unittest Test.testDealWithOverWork (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Test_testDealWithOverWork_(1) - 2017.03.16 at 16h 41m 44s.xml">
+      <configuration name="Unittest Test.testDealWithOverWork (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Test_testDealWithOverWork_(1) - 2017.03.16 at 17h 01m 23s.xml">
       <configuration name="Unittest Test.testDealWithOverWork (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_Test_testDealWithOverWork_(2) - 2017.01.09 at 19h 58m 29s.xml">
@@ -431,16 +568,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="735" extended-state="0" />
+    <frame x="-3" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22082718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19645494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2752" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -458,19 +595,165 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/src/excel/dealWithOverWork.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/excel/test_excelFunction.py">
+    <entry file="file://$PROJECT_DIR$/src/excel/test_dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#310#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitPullCommitPush.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/env/env_build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/test_ziweiUserOpen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/excelWithXlrd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="107" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/OpenPyXl_Function_Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+          <folding>
+            <element signature="e#49#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/excel_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33725">
+          <caret line="1776" column="35" selection-start-line="1776" selection-start-column="35" selection-end-line="1776" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/test_dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#310#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/test_ziweiUserOpen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/excelWithXlrd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="107" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/OpenPyXl_Function_Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/ziwei_Use_OpenPyXl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#49#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33725">
+          <caret line="1776" column="35" selection-start-line="1776" selection-start-column="35" selection-end-line="1776" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/test_dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#310#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/OpenPyXl_Function_Example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -480,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/excel/dealWithOverWork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
+        <state relative-caret-position="342">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="e#49#64#0" expanded="true" />
@@ -488,11 +771,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/excel/test_excelFunction.py">
+    <entry file="file://$PROJECT_DIR$/src/excel/test_dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#310#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#49#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/test_dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#310#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/ziwei_Use_OpenPyXl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/OpenPyXl_Function_Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33725">
+          <caret line="1776" column="35" selection-start-line="1776" selection-start-column="35" selection-end-line="1776" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/excelWithXlrd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="55" column="74" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="79" />
+          <caret line="7" column="107" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="107" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/test_ziweiUserOpen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitPullCommitPush.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/env/env_build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+          <folding>
+            <element signature="e#49#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="1017" column="61" selection-start-line="1017" selection-start-column="61" selection-end-line="1017" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/excel_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/test_dealWithOverWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="e#310#325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

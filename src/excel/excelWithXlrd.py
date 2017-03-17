@@ -1,5 +1,4 @@
 #encoding=utf-8
-##attention : python 版本号变化比较大经常网上有一些错误的代码，所以自己写代码的时候一定要表明自己开发的版本号
 '''
 Created on 2016年9月24日
 @author: shawn
