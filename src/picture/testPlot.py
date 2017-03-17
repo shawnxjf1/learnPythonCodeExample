@@ -171,9 +171,6 @@ def showSelfMakeSinPicture():
     plt.plot(x,qArr,color='black',linestyle='point') ## 画点
     plt.show()
 
-
-
-
 """
 from plot import showPlot 报红线
 """
