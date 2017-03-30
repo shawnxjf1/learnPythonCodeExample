@@ -19,5 +19,4 @@ ValueError: substring not found
 >>> cstr= '123.456.789'
 >>> cstr.index('.')
 3
-
 '''

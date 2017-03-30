@@ -73,9 +73,10 @@ def dateTimeArithmetic():
 
 
 def timedeltaFunction():
-    #FIXME
+    # FIXME
     pass
 
+##好像shell脚本也是这种格式
 def strftimeFunction():
     dt = datetime.now()
     print(    '(%Y-%m-%d %H:%M:%S %f): ', dt.strftime('%Y-%m-%d %H:%M:%S %f'))
