@@ -22,6 +22,7 @@ __mtime__ = '2016/12/27'
 
 import unittest
 import os
+import sys
 
 def printi(start,end):
     for i in range(start,end):
@@ -34,6 +35,11 @@ class Test(unittest.TestCase):
 
     def tearDown(self):
         print('test unitest  teardown')
+
+    def testCodecs(self):
+        s = '中文'  # 这里的 s 是utf-8编码的字符串类型
+        s.decode('ascii').encode('gb18030')
+        print(sys.getdefaultencoding())
 
     def testStrInt(self):
         print('member' + str(2) + 'is finised,dont need to get again')
