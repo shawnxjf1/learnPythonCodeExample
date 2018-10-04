@@ -38,6 +38,13 @@ class Test(unittest.TestCase):
         GetPhoneLocation.loadOverWorkExcel(excelFile9, 2, 30590, "百度.new.xlsx")
         # GetPhoneLocation.loadOverWorkExcel()
 
+    def getPhoneLocationFromExcelForBaiduWithMultiThread(self):
+        excelFile9 = '''/Users/shawn/Downloads/通讯录20180630/百度list.xlsx'''
+        GetPhoneLocation.getPhoneLocationFromExcelForBaiduWithMultiThread(excelFile9, 2, 10000, "百度.new.xlsx")
+        # GetPhoneLocation.loadOverWorkExcel()
+
+
+
     # def testZiweiExcel(self):
     #     excelFile1 = '''D:\同步盘\Project\helper_others\(xtej1814-338_2016-09-26.xlsx'''
     #     ziwei_Use_OpenPyXl.calZiweiExcel(excelFile1)
