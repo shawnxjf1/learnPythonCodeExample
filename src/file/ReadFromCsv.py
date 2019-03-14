@@ -23,7 +23,7 @@ fileName = env_dist['CVS_FILE']
 master_private = env_dist['CVS_PRIVATE']
 
 def searchRecord(domain,cipher):
-    with open(fileName,'r') as myFile:
+    with open(fileName,'r',encoding='UTF-8') as myFile:
         lines=csv.reader(myFile)
         existFlag = False
         for line in lines:
