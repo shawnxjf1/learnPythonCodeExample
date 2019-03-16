@@ -27,9 +27,12 @@ def searchRecord(domain):
     with open(fileName,'r',encoding='utf8') as myFile:
         lines=csv.reader(myFile)
         for line in lines:
-            if line[0]==domain:
-                print("line=%s" % line)
-                return 1
+            try:
+                if line[0]==domain:
+                    print("line=%s" % line)
+                    return 1
+            except IndexError:
+                print ("lines-indexError %s" %line)
         return 0
 
 def writeRecoreToFile(domain,userName,pwd,cipher):

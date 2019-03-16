@@ -27,13 +27,16 @@ def searchRecord(domain,cipher):
         lines=csv.reader(myFile)
         existFlag = False
         for line in lines:
-            if line[0]==domain:
-                ## pwd = line[2].decode(encoding='UTF-8')
-                line[2] = cipher.decrypt(base64.b64decode(line[2]), "ERROR")  # 将密文解密成明文，返回的是一个bytes类型数据，需要自己转换成str
-                line[2] = line[2].decode() ## cipher.decrypt后是byte类型 如 b'123456'
-                print("line=%s" % line)
-                existFlag = True
-                break
+            try:
+                if line[0]==domain:
+                    ## pwd = line[2].decode(encoding='UTF-8')
+                    line[2] = cipher.decrypt(base64.b64decode(line[2]), "ERROR")  # 将密文解密成明文，返回的是一个bytes类型数据，需要自己转换成str
+                    line[2] = line[2].decode() ## cipher.decrypt后是byte类型 如 b'123456'
+                    print("line=%s" % line)
+                    existFlag = True
+                    break
+            except IndexError:
+                print("lines-indexError-%s" %line)
         if (not existFlag):
             print("domain not exist")
 
